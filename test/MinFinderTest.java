@@ -1,13 +1,15 @@
-import static org.junit.jupiter.api.Assertions.*;
+package test;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 class MinFinderTest {
 
 	@Test
 	void testIntArray() {
 		int[] x= {23,45,12,3,78};
-		assertEquals(code.MinFinder.findMinElem(x),3,"Integer arrays work");
+		assertEquals("Integer arrays work",code.MinFinder.findMinElem(x),3);
 		//fail("Not yet implemented");
 		
 	}
