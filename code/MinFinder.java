@@ -20,5 +20,6 @@ public class MinFinder {
 				s1=item;
 		}
 		return s1;
+		//forgot I wasnt supposed to self merge
 	}
 }
