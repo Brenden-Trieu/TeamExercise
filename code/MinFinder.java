@@ -1,3 +1,5 @@
+package code;
+
 
 public class MinFinder {
 	public static void main(String[] args) {
@@ -6,19 +8,20 @@ public class MinFinder {
 		
 		
 	}
-	static int findMinElem(int[] ar) {
+	public static int findMinElem(int[] ar) {
 		int min=ar[0];
 		for(int item:ar)
 			min=Math.min(item, min);
 	
 	return min;
 	}
-	static String findMinElem(String[] ar) {
+	public static String findMinElem(String[] ar) {
 		String s1=ar[0];
 		for(String item:ar) {
 			if(s1.compareTo(item)>0)
 				s1=item;
 		}
 		return s1;
+		//forgot I wasnt supposed to self merge
 	}
 }
